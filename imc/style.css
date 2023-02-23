@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom right, #fff, #ccc);
+}
+
+
+
+.imc-container {
+    position: relative;
+    top: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  
+  input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #449d44;
+  }
+  
+  
+  #result {    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
